@@ -6,7 +6,7 @@ import org.firstinspires.ftc.teamcode.pedroPathing.pathGeneration.PathBuilder;
 import org.firstinspires.ftc.teamcode.pedroPathing.pathGeneration.PathChain;
 import org.firstinspires.ftc.teamcode.pedroPathing.pathGeneration.Point;
 
-public class autonomousTestPathingPathContainer {
+public class CONTAINERAutonomousTestPaths {
     // "v2 -- 10/13/24 PedroPathing 3-Sample LeftSide Auton"
     public static PathChain testLeftSideAutonPath() {
         PathBuilder builder = new PathBuilder();

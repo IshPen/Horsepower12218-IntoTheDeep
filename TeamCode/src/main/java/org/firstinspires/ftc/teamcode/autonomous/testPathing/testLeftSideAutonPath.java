@@ -1,4 +1,5 @@
 package org.firstinspires.ftc.teamcode.autonomous.testPathing;
+
 import org.firstinspires.ftc.teamcode.pedroPathing.follower.Follower;
 import org.firstinspires.ftc.teamcode.pedroPathing.pathGeneration.PathChain;
 
@@ -9,13 +10,14 @@ import com.qualcomm.robotcore.eventloop.opmode.OpMode;
 
 import org.firstinspires.ftc.robotcore.external.Telemetry;
 
+
 @Autonomous(name="TestLeftSideAutonPath")
 public class testLeftSideAutonPath extends OpMode {
     private Telemetry telemetryA;
 
     private Follower follower;
 
-    PathChain testleftSideAutonPath = autonomousTestPathingPathContainer.testLeftSideAutonPath();
+    PathChain testleftSideAutonPath = CONTAINERAutonomousTestPaths.testLeftSideAutonPath();
 
 
     @Override
